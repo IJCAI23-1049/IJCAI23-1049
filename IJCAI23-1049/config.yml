@@ -1,0 +1,23 @@
+batch_size: 16
+dataset: H36M
+epsilon: 0.01
+#epsilon: 1
+gradient_clip: 5.0
+#gradient_clip: 8.0
+hidden_size: 128
+#hidden_size: 4
+in_features: 24
+
+input_n: 25
+learning_rate: 0.0005
+#learning_rate: 0.001
+#learning_rate: 0.02
+#learning_rate: 0.00005
+node_num: 25
+out_features: 50
+output_n: 50
+train_epoches: 5
+
+enhance_epoches: 10
+nodes_num: 10
+enhance_num: 10
